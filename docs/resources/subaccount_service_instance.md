@@ -60,7 +60,6 @@ resource "btp_subaccount_service_instance" "alert_notification_free" {
 
 - `labels` (Map of Set of String) The set of words or phrases assigned to the service instance.
 - `parameters` (String, Sensitive) The configuration parameters for the service instance.
-- `timeouts` (Attributes) (see [below for nested schema](#nestedatt--timeouts))
 
 ### Read-Only
 
@@ -75,14 +74,6 @@ resource "btp_subaccount_service_instance" "alert_notification_free" {
 - `state` (String) The current state of the service instance.
 - `usable` (Boolean) Shows whether the resource can be used.
 
-<a id="nestedatt--timeouts"></a>
-### Nested Schema for `timeouts`
-
-Optional:
-
-- `create` (String) Timeout for creating the service instance.
-- `delete` (String) Timeout for deleting the service instance.
-- `update` (String) Timeout for updating the service instance.
 
 ## Import
 
